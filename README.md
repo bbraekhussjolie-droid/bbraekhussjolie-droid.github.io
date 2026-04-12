@@ -1,2 +1,3 @@
 # first
-My first repository/file/anything in github. Trying to ship a project for athena sleepover. 
+Hi!
+This is my first github depository, I am trying to deliver my project for the athena sleepover. It's a basic webpage with some images and links, and really doesn't do anything usefull. It is called "TO INDEED BE A GOOOD" because I had just watched Dead Poets Society for the first time when I named it. I made it because I wanted to learn/relearn the basics of web development, in which I think I succeeded, if not in anything else. To make it, I have been following a youtube series on the basics of web development, experimenting and making dumb mistakes (and then, in turn, correcting them). I have learnt an insane amount of programming from making this site (basically everything I did was new to me), and also how to use github. Hope this works.

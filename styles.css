@@ -1,0 +1,115 @@
+/*HEADER*/
+header{
+    background:midnightblue;
+    color:white;
+    height: 300px;
+    padding:15px 5px;
+    text-align: center;
+    background-image: url("images/fordIkkeStan.png");
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-position:center;
+    
+}
+.mobile{
+    display:none;
+}
+/*BODY*/
+body{
+    background:rgb(23, 172, 142);
+    color:black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;      
+    padding: 0px;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+nav li{
+    display: inline-block;
+    margin: 0 20px 0 0;
+    margin-right:20;
+}
+
+/*LENKER*/
+a{
+    text-decoration:none;
+    color:aliceblue;
+}
+a:hover{
+    text-decoration:underline;
+}
+/*BILDE*/
+header .logo a{
+    color:black;
+    background-color: turquoise;
+    background-image:url("images/dpsLogo.jpg");
+    background-size:60px;
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 54px;
+    top: -13px;
+    text-indent:-99999999px;
+}
+#bilder{
+    display:flex;
+}
+.bildedel{
+    background:rgb(0, 251, 255);
+    color:black;
+    padding: 10px 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.bildedel figure{
+    margin: auto;
+    width: 200px;
+    text-align:center;
+}
+.bildedel figure img{
+    width: 200px;
+}
+.Hank{
+    border-radius:50%;
+    box-shadow:greenyellow 0 0 40px;
+    border:1px solid red
+}
+
+/*FOOTER*/
+footer{
+    background:midnightblue;
+    color:white;
+    padding: 20px 5px;
+}
+
+/*RESPONSIVE RULES*/
+/*@media screen and (max-width: 630px){
+    .bildedel {
+        display:block;
+    }
+}*/
+
+@media screen and (max-width: 603px){
+    header{
+        height: 205px;
+    }
+}
+
+@media screen and (max-width: 436px){
+    header .mobile{
+        display: inline-block;
+    }
+    header .desktop{
+        display: none;
+    }
+    header .logo{
+        margin: 20px;
+    }
+    header{
+        height: 160px;
+    }
+}

@@ -1,7 +1,7 @@
 /*HEADER*/
 header{
     background:midnightblue;
-    color:white;
+    color: white;
     height: 300px;
     padding:15px 5px;
     text-align: center;
@@ -83,8 +83,71 @@ header .logo a{
 footer{
     background:midnightblue;
     color:white;
-    padding: 20px 5px;
+    padding-top: 5px;
+    padding-left: 5px;
+    height: 30px;
 }
+
+.svartTekst{
+    color: black;
+}
+
+.blåTekst{
+    color:aqua;
+}
+
+.tittelLinje{
+    display: flex;
+    align-content: center;
+    margin: auto;
+}
+#tittelKarakter{
+    width: 470px;
+}
+#tittelMusikk{
+    width: 550px;
+}
+.tittelLinje li{
+    margin: 4px;
+}
+
+.overskrift{
+    margin-top:6px;
+    margin-bottom: 6px;
+    text-align: center;
+    color: aliceblue;
+}
+.filmTekster{
+    color: aliceblue;
+    padding-bottom: 15px;
+}
+.filmTekster p{
+    width: 700px;
+    margin: auto;
+}
+.filmTekster h2{
+text-align: center;
+}
+.denne a{
+    color: aqua;
+}
+audio{
+    width: 300px;
+}
+.lyddel{
+    background:rgb(0, 251, 255);
+    color:black;
+    padding: 10px 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.lyddel figure{
+    width: 30%;
+    margin: auto;
+    margin-top: 15px;
+    text-align:center;
+}
+
 
 /*RESPONSIVE RULES*/
 /*@media screen and (max-width: 630px){
